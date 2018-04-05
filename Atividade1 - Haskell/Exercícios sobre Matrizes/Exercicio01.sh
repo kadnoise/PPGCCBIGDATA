@@ -7,4 +7,4 @@ splitLines line = unlines ["Matriz: ", unlines (fmap show line)]
 
 main :: IO()
 main = do
-  putStrLn(splitLines(identidade 5))
+  putStrLn(splitLines(identidade 5)) 

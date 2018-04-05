@@ -6,4 +6,4 @@ tri_pascal = iterate func [1]
 
 main :: IO()
 main = do
-  print(take 4 tri_pascal)
+  print(take 4 tri_pascal) 
